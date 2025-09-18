@@ -6,7 +6,7 @@ public class Main {
         int tries = 0;
         System.out.println("Number Guessing Game!");
         System.out.println("Pick a number between 1 and 100.");
-        while (!guessedRight && tries < 6) {
+        while (!guessedRight && tries < 20) {
             int guess = player.guessNumber();
             guessedRight = game.checkGuess(guess);
             tries++;
