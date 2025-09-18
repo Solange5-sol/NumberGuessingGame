@@ -13,7 +13,7 @@ public class Player {
             try {
                 guess = scanner.nextInt();
                 if (guess == 0) {
-                    System.out.println("You chose to quit the game.");
+                    System.out.println("game end.");
                     System.exit(0); 
                 }
                 if (guess >= 1 && guess <= 100) {
